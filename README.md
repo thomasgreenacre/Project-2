@@ -27,13 +27,13 @@ Desciption: the data set has the price (target) along with various features (man
 ## Exploration and Analysis
 
 #### Feature Correlation Heatmap
-> this visual shows the correlation between all of the features (numeric and categorical) in the data set
+> This visual shows the correlation between all of the features (numeric and categorical) in the data set
 
 ![image](https://user-images.githubusercontent.com/104700955/181682758-86655876-cae2-49a4-864e-90a1d707bde3.png)
 
 
 #### Car Prices by Manufacturer
-> this visual shows the price of automobiles by manufacturer (lexus, toyota, audi, etc.). Its helpful to see the volume (number of instances/automobiles) and to get a sense of the price scale/distribution (MIN, MAX, and AVG) visually for each manufacturer
+> This visual shows the price of automobiles by manufacturer (lexus, toyota, audi, etc.). Its helpful to see the volume (number of instances/automobiles) and to get a sense of the price scale/distribution (MIN, MAX, and AVG) visually for each manufacturer
 
 ![image](https://user-images.githubusercontent.com/104700955/181682552-f5c61fe1-e0d0-42f9-81f8-209635d7f3fa.png)
 
@@ -48,16 +48,16 @@ Desciption: the data set has the price (target) along with various features (man
 ## Reccomendations
  - Reccomediation #1: Given that none of the 3 models (Linear Regression, Random Forest, Decision Tree) yielded great results with or without PCA, I would reccomend to try and improve model results first before implementing
 
- - Reccomediation #2: If you were to implement 1 of the 3 models despite the lack of great results, reccomendation would be to implement "Model 2 (Random Forest) w/out PCA" because out of all the models tested, this one scored the best across all evaluation metrics. 
-   - Evaluation Metrics: Model 2 w/out PCA had a prediction score of 0.9128 on the training data but only a 0.4136 prediction score on the test data.
-    -  MAE Train: 2167.55
-    -  MAE Test: 5733.19
+ - Reccomediation #2: If you were to implement 1 of the 3 models despite the lack of great results, reccomendation would be to implement "Model 2 (Random Forest) w/out PCA" because out of all the models tested, this one scored the best across all evaluation metrics
+   - Evaluation Metrics: Model 2 w/out PCA had a prediction score of 0.9128 on the training data but only a 0.4136 prediction score on the test data
+    >-  MAE Train: 2167.55
+    >-  MAE Test: 5733.19
 
-    -  MSE Train: 9272681.74
-    -  MSE Test: 62966247.39
+    >-  MSE Train: 9272681.74
+    >-  MSE Test: 62966247.39
 
     -  RMSE Train: 3045.10
-    -  MSE Test: 7935.12
+    -  RMSE Test: 7935.12
 
 ### For further information
 
