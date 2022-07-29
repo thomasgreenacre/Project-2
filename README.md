@@ -39,9 +39,9 @@ Descitpion: the data set has the price (target) along with various features (man
 
 ## ML Modeling
 > 3 different base ML models were built and evaluated with PCA and no PCA 
- > Model #1: Linear Regression
- > Model #2: Random Forest
- > Model #3: Decision Tree 
+  - Model #1: Linear Regression
+  - Model #2: Random Forest
+  - Model #3: Decision Tree 
 
 
 
