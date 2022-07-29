@@ -16,12 +16,12 @@ Descitpion: the data set has the price (target) along with various features (man
 
 
 ## Methods (Evaluate & Clean)
-- check & remove (if needed) duplicate rows
-- delete any unnessecary features (columns) from the dataset that dont impact the target (price)
-- Checking & address any missing data
+- removed (if needed) duplicate rows
+- deleted unnessecary features (columns) from the dataset that dont impact the target (price)
+- checked & address any missing data
 - identified and corrected inconsistencies in values of categorical features
-- identified outliers and removed (price > 43,000 and mileage > 350,000)
-- though not needed I built in nomininal encoded mean values for missing data on features with numeric (int, float) data type
+- identified and removed outliers (price > 43,000 and mileage > 350,000)
+- built in nomininal encoded mean values for missing data on features with numeric (int, float) data type
 - OneHot encoded the most frequent values for missing data on features with object data type
 
 ## Exploration and Analysis
