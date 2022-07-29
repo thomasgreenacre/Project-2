@@ -12,7 +12,7 @@ To create a model that accurately predicts the Price of automobiles based on his
 Source: [https://www.kaggle.com/datasets/deepcontractor/car-price-prediction-challenge
 
 
-Descitpion: the data set has the price (target) along with various features (manufacturer, model, drive type, mileage, etc.) of different automobiles
+Desciption: the data set has the price (target) along with various features (manufacturer, model, drive type, mileage, etc.) of different automobiles
 
 
 ## Methods (Evaluate & Clean)
