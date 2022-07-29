@@ -25,18 +25,20 @@ Descitpion: the data set has the price (target) along with various features (man
 - OneHot encoded the most frequent values for missing data on features with object data type
 
 ## Exploration and Analysis
-#### Feature Correlation Heatmap
 
+#### Feature Correlation Heatmap
 > this visual shows
+
+![image](https://user-images.githubusercontent.com/104700955/181682758-86655876-cae2-49a4-864e-90a1d707bde3.png)
 
 
 #### Car Prices by Manufacturer
+> this visual shows 
 
-> thos visual shows 
+![image](https://user-images.githubusercontent.com/104700955/181682552-f5c61fe1-e0d0-42f9-81f8-209635d7f3fa.png)
 
 ## ML Modeling
 
-![image](https://user-images.githubusercontent.com/104700955/181682552-f5c61fe1-e0d0-42f9-81f8-209635d7f3fa.png)
 
 
 
