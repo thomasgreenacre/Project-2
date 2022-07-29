@@ -9,18 +9,48 @@ To create a model that accurately predicts the Price of automobiles based on his
 
 
 ### Data:
-Source: sales_predictions (1).csv
-
-Descitpion: Data set that has sales (Item_Outlet_Sales) by item with a number of features including Item_MRP, Item_Visibility, Outlet_Size, etc.
+Source: https://www.kaggle.com/datasets/deepcontractor/car-price-prediction-challenge![image](https://user-images.githubusercontent.com/104700955/181681325-dfedeab3-5a6e-4bd3-9bab-aa7ef950ef8d.png)
 
 
-## Methods (Data preparation steps)
+Descitpion: the data set has the price (target) along with various features (manufacturer, model, drive type, mileage, etc.) of different automobiles
+
+
+## Methods (Evaluate & Clean)
 - check & remove (if needed) duplicate rows
+- delete any unnessecary features (columns) from the dataset that dont impact the target (price)
 - Checking & address any missing data
-- cleaned any fields where approapriate to solve for similar value naming conventions
-- nomininal encoded mean values for missing data on features with numeric (int, float) data type
+- identified and corrected inconsistencies in values of categorical features
+- identified outliers and removed (price > 43,000 and mileage > 350,000)
+- though not needed I built in nomininal encoded mean values for missing data on features with numeric (int, float) data type
 - OneHot encoded the most frequent values for missing data on features with object data type
 
+## Exploration and Analysis
+#### Feature Correlation Heatmap
+
+> this visual shows
+
+
+#### Car Prices by Manufacturer
+
+> thos visual shows 
+
+## ML Modeling
+
+![image](https://user-images.githubusercontent.com/104700955/181682552-f5c61fe1-e0d0-42f9-81f8-209635d7f3fa.png)
+
+
+
+## Reccomendations
+
+
+## Limitations & Next Steps
+
+### For further information
+
+
+For any additional questions, please contact **thomas.greenacre@gmail.com**
+
+-----------------------------
 ## Results
 
 #### Feature Correlation Heatmap
@@ -36,7 +66,7 @@ Descitpion: Data set that has sales (Item_Outlet_Sales) by item with a number of
 this visual shows the range of values for the Item MRP feature represented by a Box Plot
 
 ## Model
-
+ Pr
 The final model(s) tested to predict the Sales (Item_Outlet_Sales) are 1 Linear Regression model and 1 Decision Tree model.
 
 The most important metric is the R-Squared (R2) which was used to evaulate how well the models would accurately predict Sales (Item_Outlet_Sales)
