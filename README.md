@@ -5,7 +5,7 @@
 
 ### Business problem:
 
-To create a model that accurately predicts the Price of automobiles based on historical data and machine learning techniques
+To create a model that accurately predicts the price of automobiles based on historical data and machine learning techniques
 
 
 ### Data:
@@ -33,7 +33,7 @@ Desciption: the data set has the price (target) along with various features (man
 
 
 #### Car Prices by Manufacturer
-> This visual shows the price of automobiles by manufacturer (lexus, toyota, audi, etc.). Its helpful to see the volume (number of instances/automobiles) and to get a sense of the price scale/distribution (MIN, MAX, and AVG) visually for each manufacturer
+> This visual shows the price of automobiles by manufacturer (Lexus, Toyota, Audi, etc.). Its helpful to see the volume (number of instances/automobiles) and to get a sense of the price scale/distribution (MIN, MAX, and AVG) visually for each manufacturer
 
 ![image](https://user-images.githubusercontent.com/104700955/181682552-f5c61fe1-e0d0-42f9-81f8-209635d7f3fa.png)
 
