@@ -27,13 +27,13 @@ Descitpion: the data set has the price (target) along with various features (man
 ## Exploration and Analysis
 
 #### Feature Correlation Heatmap
-> this visual shows
+> this visual shows the correlation between all of the features (numeric and categorical) in the data set
 
 ![image](https://user-images.githubusercontent.com/104700955/181682758-86655876-cae2-49a4-864e-90a1d707bde3.png)
 
 
 #### Car Prices by Manufacturer
-> this visual shows 
+> this visual shows the price of automobiles by manufactured (lexus, toyota, audi, etc.). Its helpful to see the volume (number of instances/automobiles) and to get a sense of the price scale/distribution (MIN, MAX, and AVG) visually for each manufacturer
 
 ![image](https://user-images.githubusercontent.com/104700955/181682552-f5c61fe1-e0d0-42f9-81f8-209635d7f3fa.png)
 
