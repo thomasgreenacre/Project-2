@@ -56,8 +56,8 @@ Descitpion: the data set has the price (target) along with various features (man
     -  MSE Train: 9272681.74
     -  MSE Test: 62966247.39
 
-    -  RMSE Train: 9272681.74
-    -  MSE Test: 62966247.39
+    -  RMSE Train: 3045.10
+    -  MSE Test: 7935.12
 
 ### For further information
 
