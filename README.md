@@ -50,9 +50,14 @@ Descitpion: the data set has the price (target) along with various features (man
 
  - Reccomediation #2: If you were to implement 1 of the 3 models despite the lack of great results, reccomendation would be to implement "Model 2 (Random Forest) w/out PCA" because out of all the models tested, this one scored the best across all evaluation metrics. 
    - Evaluation Metrics: Model 2 w/out PCA had a prediction score of 0.9128 on the training data but only a 0.4136 prediction score on the test data.
-    -  MAE:
-      -  Train: 2167.55
-      -  Test: 5733.19
+    -  MAE Train: 2167.55
+    -  MAE Test: 5733.19
+
+    -  MSE Train: 9272681.74
+    -  MSE Test: 62966247.39
+
+    -  RMSE Train: 9272681.74
+    -  MSE Test: 62966247.39
 
 ### For further information
 
