@@ -49,10 +49,10 @@ Descitpion: the data set has the price (target) along with various features (man
  - Reccomediation #1: Given that none of the 3 models (Linear Regression, Random Forest, Decision Tree) yielded great results with or without PCA, I would reccomend to try and improve model results first before implementing
 
  - Reccomediation #2: If you were to implement 1 of the 3 models despite the lack of great results, reccomendation would be to implement "Model 2 (Random Forest) w/out PCA" because out of all the models tested, this one scored the best across all evaluation metrics. 
-    - Evaluation Metrics: Model 2 w/out PCA had a prediction score of 0.9128 on the training data but only a 0.4136 prediction score on the test data.
-      -  MAE:
-        -  Train: 2167.55
-        -  Test: 5733.19
+   - Evaluation Metrics: Model 2 w/out PCA had a prediction score of 0.9128 on the training data but only a 0.4136 prediction score on the test data.
+    -  MAE:
+      -  Train: 2167.55
+      -  Test: 5733.19
 
 ### For further information
 
