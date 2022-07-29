@@ -38,7 +38,10 @@ Descitpion: the data set has the price (target) along with various features (man
 ![image](https://user-images.githubusercontent.com/104700955/181682552-f5c61fe1-e0d0-42f9-81f8-209635d7f3fa.png)
 
 ## ML Modeling
-
+> 3 different base ML models were built and evaluated with PCA and no PCA 
+ > Model #1: Linear Regression
+ > Model #2: Random Forest
+ > Model #3: Decision Tree 
 
 
 
@@ -55,17 +58,6 @@ For any additional questions, please contact **thomas.greenacre@gmail.com**
 -----------------------------
 ## Results
 
-#### Feature Correlation Heatmap
-
-![image](https://user-images.githubusercontent.com/104700955/176902787-08c2a6eb-a7b2-472b-8fd1-f377b33a294d.png)
-
-> this visual shows the relationship (correlation) between the different features in the dataset
-
-#### Item MRP Box Plot
-
-![image](https://user-images.githubusercontent.com/104700955/176902544-9e3ea546-06c6-4185-8a5e-e69b741bd91b.png)
-
-this visual shows the range of values for the Item MRP feature represented by a Box Plot
 
 ## Model
  Pr
