@@ -28,9 +28,10 @@ Description: the data set has the price (target) along with various features (ma
 
 #### Feature Correlation Heatmap
 > This visual shows the correlation between all of the features (numeric and categorical) in the data set. 
-> Key Takeways:
+> Key Insights:
   >- Top 3 Target (Price) -> Feature Correlations: Manufacturer (0.36), Category (0.30), Fuel Type (0.31)
   >- Bottome 3 Target (Price) -> Feature Correlations: Mileage (-0.18), Drive Wheels (0.02), Doors (0.05)
+Takeway: could look into dropping features that are not highly correclated with the target from the dataset as they should not impact the predictive model
 
 ![image](https://user-images.githubusercontent.com/104700955/181682758-86655876-cae2-49a4-864e-90a1d707bde3.png)
 
