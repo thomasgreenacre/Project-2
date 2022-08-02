@@ -28,6 +28,8 @@ Description: the data set has the price (target) along with various features (ma
 
 #### Feature Correlation Heatmap
 > This visual shows the correlation between all of the features (numeric and categorical) in the data set. 
+
+> Takeaway: some manufactueres have a lot more volume (data points) than others; potential to limit the ML Model to only the most popular selling car manufacturers for better predictability given amount of data available
 > 
 > Key Insights:
   >- Top 3 Target (Price) -> Feature Correlations: Manufacturer (0.36), Category (0.30), Fuel Type (0.31)
