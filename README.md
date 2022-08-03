@@ -52,15 +52,15 @@ Description: the data set has the price (target) along with various features (ma
   - Model #2: Random Forest
   - Model #3: Decision Tree 
 
-  - Evaluation Metrics (best performing model): Model 2 w/out PCA had a prediction score of 0.9128 on the training data but only a 0.4136 prediction score on the test data
-    >-  MAE Train: 2167.55
-    >-  MAE Test: 5733.19
+  - Evaluation Metrics (best performing model): Model 2 w/out PCA had a prediction score of 0.9134 on the training data but only a 0.4288 prediction score on the test data
+    >-  MAE Train: 2172.17
+    >-  MAE Test: 5715.34
 
-    >-  MSE Train: 9272681.74
-    >-  MSE Test: 62966247.39
+    >-  MSE Train: 9266760.66
+    >-  MSE Test: 61260349.78
 
-    >-  RMSE Train: 3045.10
-    >-  RMSE Test: 7935.12
+    >-  RMSE Train: 3044.13
+    >-  RMSE Test: 7826.89
 
 ## Recommendations
 
