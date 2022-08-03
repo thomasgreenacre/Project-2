@@ -21,6 +21,7 @@ Description: the data set has the price (target) along with various features (ma
 - checked & address any missing data
 - identified and corrected inconsistencies in values of categorical features
 - identified and removed outliers (price > 43,000 and mileage > 350,000)
+- removed manufacturers with less than 101 data points in the data set
 - built in nominal encoded mean values for missing data on features with numeric (int, float) data type
 - OneHot encoded the most frequent values for missing data on features with object data type
 
